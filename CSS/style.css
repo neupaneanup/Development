@@ -1,0 +1,111 @@
+body {
+  font-size: 18px;
+  font-family: "Libre Baskerville";
+
+  background-color: rgb(187 183 178);
+  color: #ebe8e8;
+  p {
+    font-size: 17px;
+  }
+}
+
+.block_center h3 {
+  color: #fed183;
+  font-family: "Barlow";
+  margin: 10px 0px;
+}
+
+.block_center h2 {
+  color: #7c7676;
+  font-family: "Barlow";
+}
+
+.block_center {
+  display: grid;
+  grid-template-columns: 65fr 35fr;
+  max-width: 1400px;
+  /* margin: 1em auto; */
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 4em;
+  position: relative;
+}
+
+.block_left {
+  padding: 1em 2em;
+  max-height: 68dvh; /*sets maximm height that can be taken*/
+  /* overflow-y: scroll; */
+}
+
+.block_right {
+  padding: 1em 2em;
+}
+
+.icon {
+  height: 45px;
+  width: 45px;
+}
+
+.yellow-square {
+  background-color: #c5bca1;
+  height: 250px;
+  margin-bottom: 3em;
+}
+
+.vertical {
+  writing-mode: vertical-lr;
+  transform: rotate(1.5turn);
+  position: absolute;
+  left: -100px;
+  bottom: 70px;
+  color: #7c7676;
+}
+
+.content {
+  margin-bottom: 2em;
+}
+.content p {
+  max-width: 40em;
+}
+.flex {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: start;
+}
+
+.content-list ul {
+  display: flex;
+  gap: 1.3em;
+}
+
+.first {
+  list-style-type: none;
+  padding: 0%;
+}
+
+ul {
+  padding: 0%;
+  margin: 10px 0px;
+}
+p {
+  margin: 10px 0px;
+}
+
+.pc-logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /* height: 300px;
+  background-color: red; */
+}
+
+.pc-logo > span {
+  /* width: 90px;
+  height: 90px; */
+  text-transform: lowercase;
+  color: rgb(7, 42, 30);
+  background-color: aquamarine;
+}

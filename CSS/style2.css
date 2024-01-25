@@ -1,0 +1,138 @@
+body {
+  font-family: "barlow";
+  background-color: rgb(223 222 211);
+  padding: 50px;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  cursor: pointer;
+  background: transparent;
+
+  /* inherit font & color from ancestor */
+  color: inherit;
+  font: inherit;
+
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
+}
+
+h4 {
+  font-family: "Libre Baskerville";
+  font-weight: 700;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+
+section.container {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 30px;
+  border: 1px black solid;
+  position: relative;
+  /* border-collapse: separate;
+  border-spacing: 30px; */
+}
+
+.name {
+  max-width: 400px;
+  color: rgb(249 218 155);
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+.contents-inside {
+  padding: 30px;
+  background-color: rgb(186 183 179);
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.top,
+.container-projects {
+  margin-bottom: 45px;
+}
+
+.top-left > img {
+  transition: all 0.35s ease-in-out;
+}
+
+.top-left > img:hover {
+  transform: scale(1.2);
+}
+
+.social-link {
+  align-items: center;
+  gap: 10px;
+}
+
+.info-card {
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.br-white {
+  border-top: 2px #d6d0d0 solid;
+  border-bottom: 2px #d6d0d0 solid;
+  padding: 10px 0;
+  color: rgb(132 125 125);
+  font-weight: bold;
+}
+
+.pro-items {
+  border: 2px white solid;
+  margin-bottom: 45px;
+  padding: 30px 15px;
+  gap: 30px;
+}
+
+.br-btm {
+  border-bottom: 2px solid rgb(94, 92, 92);
+}
+
+.date {
+  padding-bottom: 16px;
+}
+
+.pro-img {
+  height: 200px;
+  width: 250px;
+}
+
+.project_date-section {
+  grid-template-columns: 90fr 10fr;
+  gap: 8px;
+}
+
+.hw-300 {
+  height: 250px;
+  width: 250px;
+  /* max-width: 100%;
+  max-height: 100%; */
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.btn-close {
+  position: absolute;
+  top: -15px;
+  right: 25px;
+  background-color: rgb(223 222 211);
+  padding: 5px;
+}
